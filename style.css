@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Condensed" Arial, sans-serif;
+    background: #000000
+}
+.card {
+    position: relative;
+    background: rgba(255, 207, 207, 0.9);
+    width: 320px;
+    padding: 32px 24px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 16px;
+    border: 3px solid #000000;
+
+}
+h1 {
+    font-size: 1.4rem;
+    color: #1f2430;
+}
+
+.cargo {
+    color:#494847;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.bio {
+    color: #5b6472;
+    font-size: 0.09rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    background: #580a0a;
+    color:#d9d6d6;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2 ease, background 0.2 ease;
+
+}
+
+.links:hover {
+    background: rgb
+    transform: translatey(-2px);
+    filter:brightness(0.6);
+    border: none;
+    box-shadow: none;
+}
+
+.links {
+    opacity: 1;
+    transition: opacity: 0.3s ease;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+
+.links:active {
+    opacity: 0.6;
+}
+
+.fundo_animado {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+
+}
+
+.fundo_animado video {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+
+.fundo_animado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+    background: linear-gradient(bottom, rgba(0, 0, 0, 0.4));
+    z-index: 2;
+}
+
+.conteudo {
+    position: relative;
+    z-index: 3;
+    color: rgb(0, 0, 0)
+    text-align: center;
+    paddind-top: 20vh;
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+        padding: 24px 16px;
+    }
+}
