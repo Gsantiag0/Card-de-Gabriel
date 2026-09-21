@@ -69,7 +69,7 @@ h1 {
 
 }
 
-.links:hover {
+.links a:hover {
     background: #1c1c1c;
     transform: translatey(-2px);
 }
