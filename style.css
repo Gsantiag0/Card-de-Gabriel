@@ -63,7 +63,6 @@ h1 {
     background: #580a0a;
     color:#d9d6d6;
     padding: 10px 16px;
-    border-radius: 30px;
     font-weight: 600;
     font-size: 0.9rem;
     transition: transform 0.2 ease, background 0.2 ease;
@@ -71,24 +70,10 @@ h1 {
 }
 
 .links:hover {
-    background: rgb
+    background: rgb;
     transform: translatey(-2px);
-    filter:brightness(0.6);
-    border: none;
-    box-shadow: none;
 }
 
-.links {
-    opacity: 1;
-    transition: opacity: 0.3s ease;
-    cursor: pointer;
-    box-shadow: none;
-}
-
-
-.links:active {
-    opacity: 0.6;
-}
 
 .fundo_animado {
     position: relative;
