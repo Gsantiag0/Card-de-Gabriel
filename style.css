@@ -44,6 +44,7 @@ h1 {
 }
 .bio {
     display: block;
+    background: rgba(255, 207, 207, 0.9);
     color: #5b6472;
     font-size: 0.09rem;
     line-height: 1.5;
