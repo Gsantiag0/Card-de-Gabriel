@@ -50,7 +50,6 @@ h1 {
 }
 
 .links {
-    border-radius: 8px !important;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -59,6 +58,7 @@ h1 {
 
 .links a {
     display: block;
+    border-radius: 8px;
     text-decoration: none;
     background: #580a0a;
     color:#d9d6d6;
