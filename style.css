@@ -51,7 +51,7 @@ h1 {
     font-size: 0.9rem;
     line-height: 1.5;
     margin-bottom: 20px;
-    border-radius: 8px !important;
+    border-radius: 8px;
 }
 
 .links {
