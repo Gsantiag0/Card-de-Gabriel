@@ -50,7 +50,7 @@ h1 {
 }
 
 .links {
-    border-radius: 8px;
+    border-radius: 8px !important;
     list-style: none;
     display: flex;
     flex-direction: column;
