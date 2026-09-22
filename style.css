@@ -67,6 +67,7 @@ h1 {
     font-weight: 600;
     font-size: 0.9rem;
     transition: transform 0.2 ease, background 0.2 ease;
+    border-radius: 8px;
 
 }
 
