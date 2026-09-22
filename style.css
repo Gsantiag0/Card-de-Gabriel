@@ -58,7 +58,7 @@ h1 {
 
 .links a {
     display: block;
-    border-radius: 8px;
+    border-radius: 8px !important;
     text-decoration: none;
     background: #580a0a;
     color:#d9d6d6;
