@@ -43,6 +43,7 @@ h1 {
     margin-bottom: 12px;
 }
 .bio {
+    display: block;
     color: #5b6472;
     font-size: 0.09rem;
     line-height: 1.5;
